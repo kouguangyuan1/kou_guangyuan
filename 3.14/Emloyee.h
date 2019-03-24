@@ -17,7 +17,7 @@ public:
     }
     double raises( double b)
     {
-        salary = salary * b ;
+        salary = salary * b * 12;
         return salary;
     }
     void setsurname(string a)
