@@ -8,18 +8,21 @@ int main()
     int a;
     int d;
     cout << "Please enter the salary: ";
-    cin >> a >> d;
-    Emloyee emloyee1("Zhang","san",a);
+    cin >> a;
+    Emloyee emloyee1("Zhang","San",a);
     emloyee1.displaymessage();
-    double b;
-    cout << "How much do you want to raise: ";
+    int b;
+    cout << "How much percentage do you want to raise: ";
     cin >>b;
     emloyee1.raises(b);
     emloyee1.displaymessage();
-    Emloyee emloyee2("Li","si",d);
+
+    cout << "Please enter the salary: ";
+    cin >> d;
+    Emloyee emloyee2("Li","Si",d);
     emloyee2.displaymessage();
-    double c;
-    cout << "How much do you want to raise: ";
+    int c;
+    cout << "How much percentage do you want to raise: ";
     cin >>c;
     emloyee2.raises(c);
     emloyee2.displaymessage();

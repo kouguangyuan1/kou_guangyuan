@@ -13,11 +13,11 @@ public:
             c = 0;
         }
         else
-            salary = c;
+            salary = c * 12;
     }
-    double raises( double b)
+    int raises( int d)
     {
-        salary = salary * b * 12;
+        salary = salary * (100 + d ) / 100;
         return salary;
     }
     void setsurname(string a)
@@ -43,5 +43,6 @@ public:
 private:
     string surname;
     string givename;
-    double salary;
+    int salary;
+
 };
