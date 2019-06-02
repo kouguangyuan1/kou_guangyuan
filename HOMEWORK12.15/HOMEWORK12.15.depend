@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1559453590 source:c:\users\mark kou\documents\kou_guangyuan\homework12.12\src\date.cpp
+	<iostream>
+	"Date.h"
+
+1559453590 c:\users\mark kou\documents\kou_guangyuan\homework12.12\include\date.h
+	<iostream>
+
+1559453638 source:c:\users\mark kou\documents\kou_guangyuan\homework12.12\src\basepluscommissionemployee.cpp
+	<iostream>
+	"BasePlusCommissionEmployee.h"
+
+1559453590 c:\users\mark kou\documents\kou_guangyuan\homework12.12\include\basepluscommissionemployee.h
+	"CommissionEmployee.h"
+
+1559452252 c:\users\mark kou\documents\kou_guangyuan\homework12.12\include\commissionemployee.h
+	"Employee.h"
+
+1559453746 c:\users\mark kou\documents\kou_guangyuan\homework12.12\include\employee.h
+	<string>
+	"Date.h"
+
+1559452252 source:c:\users\mark kou\documents\kou_guangyuan\homework12.12\src\commissionemployee.cpp
+	<iostream>
+	<stdexcept>
+	"CommissionEmployee.h"
+
+1559452252 source:c:\users\mark kou\documents\kou_guangyuan\homework12.12\src\employee.cpp
+	<iostream>
+	"Employee.h"
+
+1559453590 source:c:\users\mark kou\documents\kou_guangyuan\homework12.12\src\hourlyemployee.cpp
+	<iostream>
+	"HourlyEmployee.h"
+
+1559453590 c:\users\mark kou\documents\kou_guangyuan\homework12.12\include\hourlyemployee.h
+	"Employee.h"
+
+1559452252 source:c:\users\mark kou\documents\kou_guangyuan\homework12.12\src\salariedemployee.cpp
+	<iostream>
+	"SalariedEmployee.h"
+
+1559453590 c:\users\mark kou\documents\kou_guangyuan\homework12.12\include\salariedemployee.h
+	"Employee.h"
+
